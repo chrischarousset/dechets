@@ -12,14 +12,14 @@ export default function FooterWrapper() {
     <StyledFooter>
       <h2
         dangerouslySetInnerHTML={{
-          __html: `D'ou viennent ces données&#8239;?`,
+          __html: `D'où viennent ces données&#8239;?`,
         }}
       />
       <p>Ce simulateur utilise les données de l'ADEME.</p>
       <p>
         Si vous souhaitez aller plus loin dans votre démarche, vous pouvez{' '}
         <strong>
-          calculer votre empreinte sur le climat grace à notre simulateur{' '}
+          calculer votre empreinte sur le climat grâce à notre simulateur{' '}
           <MagicLink to={'https://nosgestesclimat.fr/'}>
             Nos Gestes Climat
           </MagicLink>
